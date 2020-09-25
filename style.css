@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue&display=swap");
+body {
+  color: red;
+  font-family: "Epilogue", sans-serif;
+}
+
+div {
+  border: 2px solid black;
+  border-radius: 15px;
+  margin: 0 auto;
+  width: 300px;
+  padding: 10px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  text-transform: capitalize;
+}
+
+.title {
+  text-align: center;
+}
+
+input {
+  background-color: red;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input:focus {
+  outline: none;
+}
+
+input:hover {
+  background-color: #8b0000;
+}

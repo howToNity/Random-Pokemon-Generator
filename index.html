@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="app.js"></script>
+  <title>Random Pokemon Generator</title>
+</head>
+<body>
+  <h1 class="title">Random Pokemon Generator</h1>
+  <div id="pokemon_card">
+    <img id="pokemon_img" src="" alt="loading.." />
+    <h1><span>Name:</span> <span id="pokemon_name">-</span></h1>
+    <h1><span>Type:</span> <span id="pokemon_type">-</span></h1>
+    <h1><span>Height:</span> <span id="pokemon_height">-</span></h1>
+    <h1><span>Weight:</span> <span id="pokemon_weight">-</span></h1>
+    <input type="button" onclick="fetchPokemon()" value="Get Random Pokemon">
+  </div>
+</body>
+</html>
