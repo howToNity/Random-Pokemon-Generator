@@ -4,7 +4,7 @@ body {
   font-family: "Epilogue", sans-serif;
 }
 
-.pokemon_card {
+#pokemon_card {
   border: 2px solid black;
   border-radius: 15px;
   margin: 0 auto;
